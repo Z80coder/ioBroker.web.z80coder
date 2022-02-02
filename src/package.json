@@ -1,0 +1,34 @@
+{
+    "name": "web-admin",
+    "version": "3.4.1",
+    "private": true,
+    "dependencies": {
+        "@iobroker/adapter-react": "^1.6.10",
+        "@material-ui/core": "^4.11.4",
+        "@material-ui/icons": "^4.11.2",
+        "@sentry/browser": "^6.3.5",
+        "@sentry/integrations": "^6.3.5",
+        "copy-to-clipboard": "^3.3.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-dropzone": "^11.3.2",
+        "react-icons": "^4.2.0",
+        "react-scripts": "^4.0.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "homepage": ".",
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}

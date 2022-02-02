@@ -1,0 +1,374 @@
+{
+    "common": {
+        "name": "web",
+        "version": "3.4.1",
+        "titleLang": {
+            "en": "WEB server",
+            "de": "WEB-Server",
+            "ru": "Веб сервер",
+            "pt": "Servidor web",
+            "nl": "Web Server",
+            "fr": "Serveur Web",
+            "it": "Server web",
+            "es": "Servidor web",
+            "pl": "Serwer internetowy",
+            "zh-cn": "Web服务器"
+        },
+        "news": {
+            "3.4.1": {
+                "en": "Added support of admin5",
+                "de": "Unterstützung von admin5 hinzugefügt",
+                "ru": "Добавлена поддержка admin5",
+                "pt": "Adicionado suporte de admin5",
+                "nl": "Ondersteuning toegevoegd voor admin5",
+                "fr": "Ajout de la prise en charge d'admin5",
+                "it": "Aggiunto supporto di admin5",
+                "es": "Soporte agregado de admin5",
+                "pl": "Dodano obsługę admin5",
+                "zh-cn": "增加了对admin5的支持"
+            },
+            "3.4.0": {
+                "en": "IMPORTANT: js-controller 3.1 is now needed at least\nfix a special case for requesting ranges only (Sentry IOBROKER-WEB-3M)\nautomatically decrypt secrets for web-extensions",
+                "de": "WICHTIG: js-controller 3.1 wird jetzt mindestens benötigt\nBehebung eines Sonderfalls für die Anforderung von Bereichen (Sentry IOBROKER-WEB-3M)\nGeheimnisse für Web-Erweiterungen automatisch entschlüsseln",
+                "ru": "ВАЖНО: js-controller 3.1 теперь нужен как минимум\nисправить особый случай только для запроса диапазонов (Sentry IOBROKER-WEB-3M)\nавтоматически расшифровывать секреты веб-расширений",
+                "pt": "IMPORTANTE: js-controller 3.1 agora é necessário pelo menos\nconsertar um caso especial para solicitar intervalos apenas (Sentry IOBROKER-WEB-3M)\ndescriptografar segredos automaticamente para extensões da web",
+                "nl": "BELANGRIJK: js-controller 3.1 is nu minimaal nodig\neen speciaal geval oplossen voor het opvragen van alleen bereiken (Sentry IOBROKER-WEB-3M)\nautomatisch geheimen decoderen voor web-extensies",
+                "fr": "IMPORTANT: js-controller 3.1 est maintenant nécessaire au moins\ncorrection d'un cas particulier pour la demande de gammes uniquement (Sentry IOBROKER-WEB-3M)\ndécrypter automatiquement les secrets des extensions Web",
+                "it": "IMPORTANTE: adesso è necessario almeno js-controller 3.1\nrisolvere un caso speciale solo per la richiesta di intervalli (Sentry IOBROKER-WEB-3M)\ndecrittografa automaticamente i segreti per le estensioni web",
+                "es": "IMPORTANTE: ahora se necesita js-controller 3.1 al menos\narregla un caso especial para solicitar rangos solamente (Sentry IOBROKER-WEB-3M)\ndescifrar automáticamente los secretos de las extensiones web",
+                "pl": "WAŻNE: js-controller 3.1 jest teraz potrzebny przynajmniej\nnapraw specjalny przypadek tylko dla żądań zakresów (Sentry IOBROKER-WEB-3M)\nautomatycznie odszyfrowuj sekrety dla rozszerzeń internetowych",
+                "zh-cn": "重要提示：现在至少需要js-controller 3.1\n修复仅要求范围的特殊情况（Sentry IOBROKER-WEB-3M）\n自动解密网络扩展的秘密"
+            },
+            "3.3.0": {
+                "en": "The admin GUI was rewritten with reactJS",
+                "de": "Die Admin-GUI wurde mit reactJS neu geschrieben",
+                "ru": "Интерфейс администратора был переписан с помощью responseJS.",
+                "pt": "A GUI do administrador foi reescrita com reactJS",
+                "nl": "De admin GUI is herschreven met reactJS",
+                "fr": "L'interface graphique d'administration a été réécrite avec reactJS",
+                "it": "La GUI di amministrazione è stata riscritta con reactJS",
+                "es": "La GUI de administración se reescribió con reactJS",
+                "pl": "Graficzny interfejs użytkownika administratora został przepisany za pomocąreakJS",
+                "zh-cn": "管理GUI用reactJS重写"
+            },
+            "3.2.3": {
+                "en": "If no port is provided use default 8082 (Sentry IOBROKER-WEB-2S)\nupdate dependencies of socketio and simple-api",
+                "de": "Wenn kein Port angegeben ist, verwenden Sie die Standardeinstellung 8082 (Sentry IOBROKER-WEB-2S).\nAktualisieren Sie die Abhängigkeiten von Socketio und Simple-API",
+                "ru": "Если порт не указан, используйте 8082 по умолчанию (Sentry IOBROKER-WEB-2S)\nобновить зависимости socketio и simple-api",
+                "pt": "Se nenhuma porta for fornecida, use o padrão 8082 (Sentry IOBROKER-WEB-2S)\natualizar dependências de socketio e simple-api",
+                "nl": "Als er geen poort is opgegeven, gebruik dan standaard 8082 (Sentry IOBROKER-WEB-2S)\nupdate afhankelijkheden van socketio en simple-api",
+                "fr": "Si aucun port n'est fourni, utilisez la valeur par défaut 8082 (Sentry IOBROKER-WEB-2S)\nmettre à jour les dépendances de socketio et simple-api",
+                "it": "Se non viene fornita alcuna porta, utilizzare l'impostazione predefinita 8082 (Sentry IOBROKER-WEB-2S)\naggiorna le dipendenze di socketio e simple-api",
+                "es": "Si no se proporciona ningún puerto, utilice el 8082 predeterminado (Sentry IOBROKER-WEB-2S)\nactualizar las dependencias de socketio y simple-api",
+                "pl": "Jeśli nie podano portu, użyj domyślnego 8082 (Sentry IOBROKER-WEB-2S)\naktualizuj zależności socketio i simple-api",
+                "zh-cn": "如果未提供任何端口，请使用默认的8082（Sentry IOBROKER-WEB-2S）\n更新socketio和simple-api的依赖关系"
+            },
+            "3.2.2": {
+                "en": "If no port is provided use default 8082 (Sentry IOBROKER-WEB-2S)\nupdate dependencies of socketio and simple-api",
+                "de": "Wenn kein Port angegeben ist, verwenden Sie die Standardeinstellung 8082 (Sentry IOBROKER-WEB-2S).\nAktualisieren Sie die Abhängigkeiten von Socketio und Simple-API",
+                "ru": "Если порт не указан, используйте 8082 по умолчанию (Sentry IOBROKER-WEB-2S)\nобновить зависимости socketio и simple-api",
+                "pt": "Se nenhuma porta for fornecida, use o padrão 8082 (Sentry IOBROKER-WEB-2S)\natualizar dependências de socketio e simple-api",
+                "nl": "Als er geen poort is opgegeven, gebruik dan standaard 8082 (Sentry IOBROKER-WEB-2S)\nupdate afhankelijkheden van socketio en simple-api",
+                "fr": "Si aucun port n'est fourni, utilisez la valeur par défaut 8082 (Sentry IOBROKER-WEB-2S)\nmettre à jour les dépendances de socketio et simple-api",
+                "it": "Se non viene fornita alcuna porta, utilizzare l'impostazione predefinita 8082 (Sentry IOBROKER-WEB-2S)\naggiorna le dipendenze di socketio e simple-api",
+                "es": "Si no se proporciona ningún puerto, utilice el 8082 predeterminado (Sentry IOBROKER-WEB-2S)\nactualizar las dependencias de socketio y simple-api",
+                "pl": "Jeśli nie podano portu, użyj domyślnego 8082 (Sentry IOBROKER-WEB-2S)\naktualizuj zależności socketio i simple-api",
+                "zh-cn": "如果未提供任何端口，请使用默认的8082（Sentry IOBROKER-WEB-2S）\n更新socketio和simple-api的依赖关系"
+            },
+            "3.2.1": {
+                "en": "If no port is provided use default 8082 (Sentry IOBROKER-WEB-2S)",
+                "de": "Wenn kein Port angegeben ist, verwenden Sie die Standardeinstellung 8082 (Sentry IOBROKER-WEB-2S).",
+                "ru": "Если порт не указан, используйте 8082 по умолчанию (Sentry IOBROKER-WEB-2S)",
+                "pt": "Se nenhuma porta for fornecida, use o padrão 8082 (Sentry IOBROKER-WEB-2S)",
+                "nl": "Als er geen poort is opgegeven, gebruik dan standaard 8082 (Sentry IOBROKER-WEB-2S)",
+                "fr": "Si aucun port n'est fourni, utilisez la valeur par défaut 8082 (Sentry IOBROKER-WEB-2S)",
+                "it": "Se non viene fornita alcuna porta, utilizzare l'impostazione predefinita 8082 (Sentry IOBROKER-WEB-2S)",
+                "es": "Si no se proporciona ningún puerto, utilice el 8082 predeterminado (Sentry IOBROKER-WEB-2S)",
+                "pl": "Jeśli nie podano portu, użyj domyślnego 8082 (Sentry IOBROKER-WEB-2S)",
+                "zh-cn": "如果未提供任何端口，请使用默认的8082（Sentry IOBROKER-WEB-2S）"
+            },
+            "3.2.0": {
+                "en": "Support of new Let's Encrypt (only with js-controller 3.2.x)\nAllow to disable to serve files or states from DB",
+                "de": "Unterstützung des neuen Let's Encrypt (nur mit js-controller 3.2.x)\nDeaktivieren Sie diese Option, um Dateien oder Status aus der Datenbank bereitzustellen",
+                "ru": "Поддержка нового Let's Encrypt (только с js-controller 3.2.x)\nРазрешить отключение обслуживания файлов или состояний из БД",
+                "pt": "Suporte do novo Let's Encrypt (apenas com js-controller 3.2.x)\nPermitir desabilitar para servir arquivos ou estados do banco de dados",
+                "nl": "Ondersteuning van nieuwe Let's Encrypt (alleen met js-controller 3.2.x)\nSta toe om bestanden of toestanden van DB uit te schakelen",
+                "fr": "Prise en charge du nouveau Let's Encrypt (uniquement avec js-controller 3.2.x)\nAutoriser à désactiver pour servir des fichiers ou des états de la base de données",
+                "it": "Supporto del nuovo Let's Encrypt (solo con js-controller 3.2.x)\nConsenti di disabilitare per servire file o stati dal DB",
+                "es": "Soporte del nuevo Let's Encrypt (solo con js-controller 3.2.x)\nPermitir deshabilitar para servir archivos o estados desde DB",
+                "pl": "Obsługa nowego Let's Encrypt (tylko z js-controller 3.2.x)\nZezwól na wyłączenie obsługi plików lub stanów z bazy danych",
+                "zh-cn": "支持新的Let's Encrypt（仅适用于js-controller 3.2.x）\n允许禁用以从数据库提供文件或状态"
+            },
+            "3.1.0": {
+                "en": "Add option for Basic Auth",
+                "de": "Option für Basic Auth hinzufügen",
+                "ru": "Добавить опцию для базовой аутентификации",
+                "pt": "Adicionar opção para autenticação básica",
+                "nl": "Optie toevoegen voor Basic Auth",
+                "fr": "Ajouter une option pour l'authentification de base",
+                "it": "Aggiungi l'opzione per l'autenticazione di base",
+                "es": "Agregar opción para autenticación básica",
+                "pl": "Dodaj opcję dla Basic Auth",
+                "zh-cn": "添加基本身份验证选项"
+            },
+            "3.0.14": {
+                "en": "Prevent crash case (Sentry IOBROKER-WEB-1D)\nSupport html <video> tag on Safari (iOS)",
+                "de": "Absturz verhindern (Sentry IOBROKER-WEB-1D)\nUnterstützt HTML<video> Tag auf Safari (iOS)",
+                "ru": "Предотвращение сбоя (Sentry IOBROKER-WEB-1D)\nПоддержка html<video> тег в Safari (iOS)",
+                "pt": "Prevenir caso de travamento (Sentry IOBROKER-WEB-1D)\nSuporte html<video> tag no Safari (iOS)",
+                "nl": "Voorkom crash case (Sentry IOBROKER-WEB-1D)\nOndersteuning van html<video> tag op Safari (iOS)",
+                "fr": "Prévenir les cas de crash (Sentry IOBROKER-WEB-1D)\nSupport html<video> tag sur Safari (iOS)",
+                "it": "Prevenire il crash case (Sentry IOBROKER-WEB-1D)\nSupporto HTML<video> tag su Safari (iOS)",
+                "es": "Caso de prevención de accidentes (Sentry IOBROKER-WEB-1D)\nSoporte html<video> etiqueta en Safari (iOS)",
+                "pl": "Zapobiegaj awariom (Sentry IOBROKER-WEB-1D)\nWsparcie html<video> tag w Safari (iOS)",
+                "zh-cn": "防止崩溃情况（Sentry IOBROKER-WEB-1D）\n支持HTML<video>在Safari（iOS）上标记"
+            },
+            "3.0.13": {
+                "en": "Added the support of multi-language names for the welcome screen.",
+                "de": "Unterstützung für mehrsprachige Namen für den Begrüßungsbildschirm hinzugefügt.",
+                "ru": "Добавлена поддержка многоязычных имен для экрана приветствия.",
+                "pt": "Adicionado o suporte de nomes em vários idiomas para a tela de boas-vindas.",
+                "nl": "Ondersteuning toegevoegd voor meertalige namen voor het welkomstscherm.",
+                "fr": "Ajout de la prise en charge des noms multilingues pour l'écran d'accueil.",
+                "it": "Aggiunto il supporto di nomi multilingue per la schermata di benvenuto.",
+                "es": "Se agregó la compatibilidad con nombres en varios idiomas para la pantalla de bienvenida.",
+                "pl": "Dodano obsługę wielojęzycznych nazw na ekranie powitalnym.",
+                "zh-cn": "在欢迎屏幕中增加了对多语言名称的支持。"
+            },
+            "3.0.12": {
+                "en": "Updated used npm libraries",
+                "de": "Aktualisierte gebrauchte npm-Bibliotheken",
+                "ru": "Обновлены используемые библиотеки npm",
+                "pt": "Bibliotecas npm usadas atualizadas",
+                "nl": "Bijgewerkte gebruikte npm-bibliotheken",
+                "fr": "Bibliothèques npm utilisées mises à jour",
+                "it": "Librerie npm usate aggiornate",
+                "es": "Bibliotecas npm usadas actualizadas",
+                "pl": "Zaktualizowano używane biblioteki npm",
+                "zh-cn": "更新了使用过的npm库"
+            },
+            "3.0.10": {
+                "en": "socketio pingTimeout and pinInterval increased to prevent too fast reconnections and bigger visualizations",
+                "de": "Socketio PingTimeout und PinInterval wurden erhöht, um zu schnelle Wiederverbindungen und größere Visualisierungen zu vermeiden",
+                "ru": "socketio pingTimeout и pinInterval увеличены, чтобы предотвратить слишком быстрое переподключение и большую визуализацию",
+                "pt": "socketio pingTimeout e pinInterval aumentados para evitar reconexões muito rápidas e visualizações maiores",
+                "nl": "socketio pingTimeout en pinInterval verhoogd om te snelle herverbindingen en grotere visualisaties te voorkomen",
+                "fr": "socketio pingTimeout et pinInterval augmentés pour éviter des reconnexions trop rapides et des visualisations plus importantes",
+                "it": "socketio pingTimeout e pinInterval aumentati per impedire riconnessioni troppo veloci e visualizzazioni più grandi",
+                "es": "socketio pingTimeout y pinInterval aumentaron para evitar reconexiones demasiado rápidas y visualizaciones más grandes",
+                "pl": "Zwiększono wartość socketio pingTimeout i pinInterval, aby zapobiec zbyt szybkim ponownym połączeniom i większym wizualizacjom",
+                "zh-cn": "增加了socketio pingTimeout和pinInterval，以防止重新连接速度过快和较大的可视化效果"
+            },
+            "3.0.9": {
+                "en": "Upgrade socketio adapter version\nOptimize error handling for webserver initialization again",
+                "de": "Aktualisieren Sie die Version des Socketio-Adapters\nOptimieren Sie die Fehlerbehandlung für die Webserver-Initialisierung erneut",
+                "ru": "Обновите версию адаптера socketio\nОптимизируйте обработку ошибок для инициализации веб-сервера снова",
+                "pt": "Atualizar a versão do adaptador socketio\nOtimize o tratamento de erros para a inicialização do servidor da web novamente",
+                "nl": "Upgrade socketio adapterversie\nOptimaliseer de foutafhandeling voor het opnieuw initialiseren van de webserver",
+                "fr": "Mettre à niveau la version de l'adaptateur socketio\nOptimiser à nouveau la gestion des erreurs pour l'initialisation du serveur Web",
+                "it": "Aggiorna la versione dell'adattatore socketio\nOttimizza nuovamente la gestione degli errori per l'inizializzazione del server web",
+                "es": "Actualizar la versión del adaptador socketio\nOptimizar el manejo de errores para la inicialización del servidor web nuevamente",
+                "pl": "Zaktualizuj wersję adaptera socketio\nPonownie zoptymalizuj obsługę błędów w celu inicjalizacji serwera WWW",
+                "zh-cn": "升级socketio适配器版本\n再次优化错误处理以进行Web服务器初始化"
+            },
+            "3.0.8": {
+                "en": "webserver initialization optimized again to prevent errors with invalid certificates",
+                "de": "Die Webserver-Initialisierung wurde erneut optimiert, um Fehler mit ungültigen Zertifikaten zu vermeiden",
+                "ru": "Инициализация веб-сервера снова оптимизирована для предотвращения ошибок с недействительными сертификатами",
+                "pt": "inicialização do servidor da web otimizada novamente para evitar erros com certificados inválidos",
+                "nl": "de initialisatie van de webserver is opnieuw geoptimaliseerd om fouten met ongeldige certificaten te voorkomen",
+                "fr": "initialisation du serveur Web optimisée à nouveau pour éviter les erreurs avec des certificats invalides",
+                "it": "inizializzazione del server web nuovamente ottimizzata per prevenire errori con certificati non validi",
+                "es": "La inicialización del servidor web se optimizó nuevamente para evitar errores con certificados no válidos",
+                "pl": "inicjalizacja serwera WWW została ponownie zoptymalizowana, aby zapobiec błędom z nieprawidłowymi certyfikatami",
+                "zh-cn": "再次优化了Web服务器的初始化，以防止证书无效而出错"
+            },
+            "3.0.7": {
+                "en": "errors on webserver initialization are handled properly",
+                "de": "Fehler bei der Webserver-Initialisierung werden ordnungsgemäß behandelt",
+                "ru": "ошибки при инициализации веб-сервера обрабатываются правильно",
+                "pt": "erros na inicialização do servidor da web são tratados adequadamente",
+                "nl": "fouten bij het initialiseren van de webserver worden correct afgehandeld",
+                "fr": "les erreurs lors de l'initialisation du serveur Web sont gérées correctement",
+                "it": "gli errori sull'inizializzazione del server web sono gestiti correttamente",
+                "es": "los errores en la inicialización del servidor web se manejan correctamente",
+                "pl": "błędy przy inicjalizacji serwera są obsługiwane poprawnie",
+                "zh-cn": "网站服务器初始化错误得到正确处理"
+            },
+            "3.0.5": {
+                "en": "fixed the sentry warnings",
+                "de": "Die Sentry-Warnungen wurden behoben",
+                "ru": "исправлены sentry предупреждения",
+                "pt": "corrigido os avisos de sentinela",
+                "nl": "de schildwachtwaarschuwingen opgelost",
+                "fr": "correction des avertissements de sentinelle",
+                "it": "risolti gli avvisi di sentinella",
+                "es": "arreglado las advertencias centinela",
+                "pl": "naprawiono ostrzeżenia wartowników",
+                "zh-cn": "修复了哨兵警告"
+            },
+            "3.0.4": {
+                "en": " js-controller 3.0 warnings prevented and added Sentry error reporting with js-controller 3.0",
+                "de": " Warnungen zu js-controller 3.0 wurden verhindert und Sentry-Fehlerberichte mit js-controller 3.0 hinzugefügt",
+                "ru": " Предупреждения js-controller 3.0 предотвращены и добавлены отчеты об ошибках Sentry с помощью js-controller 3.0",
+                "pt": " Avisos do js-controller 3.0 impedidos e adicionados relatórios de erros do Sentry com o js-controller 3.0",
+                "nl": " js-controller 3.0-waarschuwingen voorkomen en toegevoegd Sentry-foutrapportage met js-controller 3.0",
+                "fr": " avertissements js-controller 3.0 empêchés et ajout de rapports d'erreurs Sentry avec js-controller 3.0",
+                "it": " Gli avvisi di js-controller 3.0 hanno impedito e aggiunto la segnalazione degli errori di Sentry con js-controller 3.0",
+                "es": " Las advertencias de js-controller 3.0 impidieron y agregaron informes de errores de Sentry con js-controller 3.0",
+                "pl": " Zapobiegano ostrzeżeniom js-controller 3.0 i dodano raportowanie błędów Sentry w js-controller 3.0",
+                "zh-cn": " 防止js-controller 3.0警告并使用js-controller 3.0添加了Sentry错误报告"
+            },
+            "3.0.3": {
+                "en": "Web extensions were fixed",
+                "de": "Web-Erweiterungen wurden behoben",
+                "ru": "Веб-расширения были исправлены",
+                "pt": "As extensões da Web foram corrigidas",
+                "nl": "Webextensies zijn opgelost",
+                "fr": "Les extensions Web ont été corrigées",
+                "it": "Le estensioni Web sono state corrette",
+                "es": "Se corrigieron las extensiones web",
+                "pl": "Rozszerzenia sieci zostały naprawione",
+                "zh-cn": "网络扩展是固定的"
+            },
+            "3.0.1": {
+                "en": "workaround for a socket.io bug added",
+                "de": "Problemumgehung für einen socket.io-Fehler hinzugefügt",
+                "ru": "добавлено обходное решение для ошибки socket.io",
+                "pt": "solução alternativa para um bug socket.io adicionado",
+                "nl": "tijdelijke oplossing voor een socket.io-bug toegevoegd",
+                "fr": "solution de contournement pour un bug socket.io ajouté",
+                "it": "soluzione alternativa per un bug socket.io aggiunto",
+                "es": "solución alternativa para un error socket.io agregado",
+                "pl": "dodano obejście błędu socket.io",
+                "zh-cn": "解决了socket.io错误的解决方法"
+            },
+            "3.0.0": {
+                "en": "socket.io upgraded to latest version. Attention: This might break older devices like iPad 1/2!!",
+                "de": "socket.io wurde auf die neueste Version aktualisiert. Achtung: Dies unterstützt ältere Geräte wie das iPad 1/2 nicht mehr !!",
+                "ru": "socket.io обновлен до последней версии. Внимание: это может сломать старые устройства, такие как iPad 1/2!",
+                "pt": "socket.io atualizado para a versão mais recente. Atenção: Isso pode quebrar dispositivos mais antigos como o iPad 1/2 !!",
+                "nl": "socket.io opgewaardeerd naar de nieuwste versie. Let op: dit kan oudere apparaten zoals iPad 1/2 kapot maken !!",
+                "fr": "socket.io mis à niveau vers la dernière version. Attention: cela pourrait casser des appareils plus anciens comme l'iPad 1/2 !!",
+                "it": "socket.io aggiornato all'ultima versione. Attenzione: questo potrebbe rompere i dispositivi più vecchi come iPad 1/2 !!",
+                "es": "socket.io actualizado a la última versión. Atención: ¡Esto podría romper dispositivos más antiguos como iPad 1/2!",
+                "pl": "socket.io zaktualizowane do najnowszej wersji. Uwaga: może to uszkodzić starsze urządzenia, takie jak iPad 1/2 !!",
+                "zh-cn": "socket.io已升级到最新版本。注意：这可能会损坏旧设备，例如iPad 1/2！"
+            }
+        },
+        "desc": {
+            "en": "opens a webserver for other adapters",
+            "de": "Stellt webserver für 'ioBroker Adapter' zur Verfügung",
+            "ru": "Запускает веб сервер для 'ioBroker драйверов'",
+            "pt": "abre um servidor web para outros adaptadores",
+            "nl": "opent een webserver voor andere adapters",
+            "fr": "ouvre un serveur web pour d'autres adaptateurs",
+            "it": "apre un server web per altri adattatori",
+            "es": "abre un servidor web para otros adaptadores",
+            "pl": "otwiera serwer internetowy dla innych kart",
+            "zh-cn": "为其他适配器服务的web服务器"
+        },
+        "license": "MIT",
+        "mode": "daemon",
+        "platform": "Javascript/Node.js",
+        "loglevel": "info",
+        "icon": "web.png",
+        "readme": "https://github.com/ioBroker/ioBroker.web/blob/master/README.md",
+        "enabled": true,
+        "materialize": true,
+        "compact": true,
+        "keywords": [
+            "web",
+            "server",
+            "www",
+            "express"
+        ],
+        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.web/master/admin/web.png",
+        "type": "general",
+        "stopBeforeUpdate": true,
+        "webExtendable": true,
+        "localLink": "%web_protocol%://%ip%:%web_port%/",
+        "dependencies": [
+            {
+                "js-controller": ">=3.1.0"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=3.0.0"
+            }
+        ],
+        "authors": [
+            {
+                "name": "bluefox",
+                "email": "dogafox@gmail.com"
+            }
+        ],
+        "plugins": {
+            "sentry": {
+                "dsn": "https://3acf24332d994549bfa3b86e06062c21@sentry.iobroker.net/16"
+            }
+        }
+    },
+    "native": {
+        "port": 8082,
+        "auth": false,
+        "secure": false,
+        "bind": "0.0.0.0",
+        "cache": false,
+        "socketio": "",
+        "simpleapi": false,
+        "defaultUser": "admin",
+        "ttl": 3600,
+        "certPublic": "",
+        "certPrivate": "",
+        "certChained": "",
+        "addUserName": false,
+        "forceWebSockets": false,
+        "whiteListEnabled": false,
+        "leEnabled": false,
+        "leUpdate": false,
+        "leCheckPort": 80,
+        "loginBackgroundColor": "",
+        "loginBackgroundImage": false,
+        "basicAuth": false,
+        "disableExtensions": false,
+        "disableStates": false,
+        "disableFilesObjects": false
+    },
+    "objects": [
+        {
+            "_id": "connected",
+            "type": "info",
+            "common": {
+                "name": "Info about connected socket clients",
+                "type": "string",
+                "read": true,
+                "write": false
+            }
+        }
+    ],
+    "instanceObjects": [
+        {
+            "_id": "",
+            "type": "meta",
+            "common": {
+                "name": "user files and images for background image",
+                "type": "meta.user"
+            },
+            "native": {}
+        },
+        {
+            "_id": "connected",
+            "type": "state",
+            "common": {
+                "role": "text",
+                "name": "Active instances",
+                "type": "string",
+                "read": true,
+                "write": false
+            },
+            "native": {}
+        }
+    ]
+}
